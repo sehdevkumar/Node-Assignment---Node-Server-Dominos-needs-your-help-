@@ -19,6 +19,8 @@ function handleServer(req, res) {
         res.end();
     }else if (req.url!="/welcome" && req.url==="/contact" ) {}{
         res.writeHead(404);
+        res.write("404"); 
+        res.end();
     }
 
 
