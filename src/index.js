@@ -17,7 +17,7 @@ function handleServer(req, res) {
         });
         res.write(data); //write a response to the client
         res.end();
-    }else if (req.url!="/welcome" && req.url==="/contact" ) {}{
+    }else if (req.url!="/welcome" && req.url==="/contact" ) {
         res.writeHead(404);
 //         res.write("404"); 
         res.end();
